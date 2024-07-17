@@ -220,8 +220,10 @@ class TicketBookingApp:
             file.write(f"Departure Time: {departure_time}\n")
             file.write(f"Number of Tickets: {num_tickets}\n")
             file.write(f"Ticket Class: {ticket_class}\n")
+
             file.write(f"Passenger Name: {passenger_name}\n")
             file.write(f"Passenger Age: {passenger_age}\n")
+
             file.write(f"Passenger Gender: {passenger_gender}\n")
             file.write(f"Total Price: {ticket_price}\n")
             file.write(f"\n\nfor payment Get Your Ticket Number And go to Any Web Sites Or Any Related Company Of Ours By Person And pay.")
